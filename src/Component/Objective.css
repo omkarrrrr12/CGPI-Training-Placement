@@ -1,0 +1,108 @@
+.objective-container{
+    width: 100%;
+    height: auto;
+    padding: 0 8%;
+    margin-bottom: 5%;
+  }
+  
+  .objective-container h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .objective-container h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    font: 'Poppins';
+  }
+  
+  .objective-container h1 ::after {
+    content: '';
+    background: #303ef7;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .objective-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .objective-services {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+  }
+  
+  .objective-services i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color : black;
+  }
+  
+  .objective-services h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .objective-services:hover {
+    background: #ecaf69;
+    color: #FFFFFF;
+    transform: scale(1.05);
+    color: #060322;
+  
+  }
+  
+  .objective-services i:hover  {
+    color: white;
+  }
+
+@media (max-width : 768px){
+  .objective-container{
+    width: 80%;
+    height: auto;
+    left: 0;
+    margin-left: 4%;
+  }
+
+  .objective-container h1{
+    font-size: 22px;
+    margin-left: 30%;
+  }
+  .objective-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .objective-services i{
+    font-size: 16px;
+  }
+
+  .objective-services h2{
+    font-size: 10px;
+  }
+
+  .objective-services p{
+    font-size: 8px;
+  }
+} 
+

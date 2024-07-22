@@ -1,0 +1,121 @@
+.background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: url('../Images/Home/Home.jpg') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-section {
+  position: relative;
+  background-size: cover;
+  background-position: bottom;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../Images/internshipback1\ \(1\).jpg');
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.contentI {
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.contentI h1 {
+  font-size: 36px;
+  color: aliceblue;
+}
+
+.info-section, .details-section {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.info-content, .details-content {
+  flex: 1;
+}
+
+.info-image, .details-image, .internship-image {
+  flex: 1;
+  text-align: right;
+}
+
+.info-image img, .details-image img, .internship-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.details-content ul {
+  font-size: 15px;
+}
+
+.details-content ul li {
+  margin: 20px 0;
+}
+
+.details-content ul li h3 {
+  color: #372504;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .contentI h1 {
+    font-size: 15px; /* Adjust this value as needed */
+  }
+
+  .info-section, .details-section {
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center align text */
+  }
+
+  .info-image, .details-image, .internship-image {
+    text-align: center; /* Center align images */
+    margin-top: 20px; /* Add space above images */
+  }
+
+  .info-image img,
+  .details-image img,
+  .internship-image img {
+    max-width: 100%; /* Make images full-width for mobile view */
+    height: auto;
+  }
+
+  .main-section {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+}

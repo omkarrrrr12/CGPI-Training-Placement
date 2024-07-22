@@ -1,0 +1,61 @@
+.software-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 20px;
+  background-color: #000; /* Optional: Set background color */
+}
+
+.software-card {
+  text-align: center;
+  width: 100%;
+}
+
+.software-card h1 {
+  color: #e5e4e2; /* Replace with your desired color */
+}
+
+.large-image-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto;
+}
+
+.large-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the entire container */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .large-image-container {
+    max-width: 1000px;
+    
+  }
+}
+
+@media (max-width: 992px) {
+  .large-image-container {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .large-image-container {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 576px) {
+  .large-image-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .software-container {
+    padding: 10px;
+  }
+}

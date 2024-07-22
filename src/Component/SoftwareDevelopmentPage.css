@@ -1,0 +1,119 @@
+.software-development-page{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+    padding: 20px;
+    background-image: url('../Images/Backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(92, 14, 14); 
+    min-height: 100vh; 
+    display: flex; 
+    text-indent: 3%;
+    margin-top: 100px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .main-section {
+    position: relative;
+    background-size: cover;
+    background-position:bottom;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  .content3 {
+    color: black;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .content3 h1 {
+    font-size: 36px;
+  }
+  
+  .info-section, .details-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .info-content, .details-content {
+    flex: 1;
+  }
+  
+  .info-image, .details-image, .internship-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .info-image img, .details-image img, .internship-image img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .details-content ul {
+    font-size: 15px;
+  }
+  
+  .details-content ul li {
+    margin: 20px 0;
+  }
+  
+  .details-content ul li h3 {
+    color: #372504;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+
+    .software-development-page{
+      margin-top: 25%;
+  }
+  
+    .content3 h1 {
+      font-size: 15px; /* Adjust this value as needed */
+    }
+    .info-image img,
+    .details-image img,
+    .internship-image img {
+      max-width: 100%; /* Make images full-width for mobile view */
+      height: auto;
+    }
+    .main-section {
+      height:200px;
+    }
+  }
+  

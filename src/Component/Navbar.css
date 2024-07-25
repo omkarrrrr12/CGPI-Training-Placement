@@ -32,4 +32,21 @@
   .contact-us button:hover {
     background-color: dimgray;
   }
+  navbar-buttons {
+    margin-right: 10px;
+  }
   
+  .navbar-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff; /* Text color */
+    background-color: #eb8909; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-buttons button:hover {
+    background-color: #12b300; /* Background color on hover */
+  }

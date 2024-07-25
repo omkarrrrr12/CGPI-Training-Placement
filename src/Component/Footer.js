@@ -55,7 +55,7 @@ const Footer = () => {
           scrolling="no"
           marginHeight="0"
           marginWidth="0"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.5145131665395!2d73.84957717506184!3d18.505637382585032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c19ff8fe91e5%3A0xe7654f134e108809!2sCGPI%20SOFTWARE%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1721370870940!5m2!1sen!2sin" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242049.83316118148!2d73.84518715980555!3d18.572747355399862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c19ff8fe91e5%3A0xe7654f134e108809!2sCGPI%20SOFTWARE%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1721716793959!5m2!1sen!2sin"
           
         ></iframe>
       </div>

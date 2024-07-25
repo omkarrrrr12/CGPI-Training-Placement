@@ -24,6 +24,9 @@ function MyCard() {
   const handlePlacement = () => {
     navigate('/placement');
   }
+  const handleCourse = () => {
+    navigate('/Course');
+  }
 
 
   return (
@@ -81,7 +84,7 @@ function MyCard() {
             <p>
             Our diverse range of courses cater to all levels of expertise, from beginners to advanced professionals. Stay updated with the latest trends and technologies in the IT sector. Our courses are designed to equip you with the knowledge and skills needed for a successful career.
             </p>
-            <button onClick={handleOnlineTraining}>Explore</button>
+            <button onClick={handleCourse}>Explore</button>
           </div>
         </div>
         <div className="card">
